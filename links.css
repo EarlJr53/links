@@ -1,0 +1,63 @@
+html {
+    background-color: grey;
+}
+
+h1 {
+    color: rgb(168, 108, 224);
+    border-radius: 20px;
+    border: 1px;
+    padding: 10px;
+    width: 300px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+* {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+/* Grids */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
+    grid-template-rows: 300px 300px 300px 300px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.grid-item {
+    padding: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+/* Links */
+
+a:link, a:visited {
+    background-color: #555555;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  a:hover, a:active {
+    color: white;
+    background-color: rgb(112, 112, 112);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
